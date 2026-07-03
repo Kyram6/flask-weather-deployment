@@ -134,7 +134,7 @@ export WEATHER_API_KEY="your_api_key_here"
 | Web UI | `http://<IP>/` |
 | Weather API (JSON) | `http://<IP>/weather/<postcode>` |
 
-`/weather/<postcode>` is an API endpoint, not a page — visiting it directly returns raw JSON. That's expected behavior, not a bug. The homepage's search box calls this endpoint in the background and renders the result.
+`/weather/<postcode>` is an API endpoint mine returns raw JSON. That's expected behavior, not a bug. WIP.
 
 **Screenshots:**
 
