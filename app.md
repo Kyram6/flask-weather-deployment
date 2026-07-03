@@ -82,7 +82,7 @@ python3 -m venv venv
 ```
 
 ## 6. Install Python packages inside venv
-- Must use ./venv/bin/pip so packages go into venv, not system Python
+- Use ./venv/bin/pip so packages go into venv, not system Python
 
 ```
 ./venv/bin/pip install flask requests gunicorn
